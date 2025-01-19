@@ -7,8 +7,8 @@ print("\nEjercicio 1: Imprimir mensajes")
 print("Escribe un programa que imprima tu nombre y tu ciudad en líneas separadas.")
 
 ### Completa aquí
-
-print("--------------")
+nombre, ciudad = input ("Como te llamas y de donde eres?\n").split()
+print("fTe llamas {nombre} y vives en {ciudad}")
 
 print("\nEjercicio 2: Muestra los tipos de datos de las siguientes variables:")
 print("Usa el comando 'type()' para determinar el tipo de datos de cada variable.")
@@ -20,7 +20,11 @@ e = None
 
 ### Completa aquí
 
-print("--------------")
+print("type(a):", type(a))
+print("type(b):", type(b))
+print("type(c):", type(c))
+print("type(d):", type(d))
+print("type(e):", type(e))
 
 print("\nEjercicio 3: Casting de tipos")
 print("Convierte la cadena \"12345\" a un entero y luego a un float.")
@@ -28,7 +32,13 @@ print("Convierte el float 3.99 a un entero. ¿Qué ocurre?")
 
 ### Completa aquí
 
-print("--------------")
+cadena = "12345"
+numero = 3.99
+
+print(int(cadena))
+print(float(cadena))
+
+print(int(numero))
 
 print("\nEjercicio 4: Variables")
 print("Crea variables para tu nombre, edad y altura.")
@@ -38,7 +48,12 @@ print("Usa f-strings para imprimir una presentación.")
 
 ### Completa aquí
 
-print("--------------")
+nombre = "Raul"
+edad = 35
+estatura = 1.73
+
+print(f"Hola!, me llamo {nombre}, tengo {edad} años y {estatura} metros de altura")
+
 
 print("\nEjercicio 5: Números")
 print("1. Crea una variable con el número PI (sin asignar una variable)")
